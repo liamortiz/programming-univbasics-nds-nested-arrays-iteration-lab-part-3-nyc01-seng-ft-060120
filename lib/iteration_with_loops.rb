@@ -8,7 +8,7 @@ def join_nested_strings(src)
     while col < src[row].size do
       element = src[row][col]
       if element.is_a?String
-        sentance << element
+        sentance << " #{element}"
       end
       col += 1
     end
